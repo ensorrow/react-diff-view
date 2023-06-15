@@ -21,6 +21,7 @@
     "build-pages": "skr build --clean --src-dir=site --build-target=stable",
     "prepublishOnly": "npm run build",
     "lint": "eslint src site",
+    "ci": "echo 'no ci'",
     "release": "standard-version"
   },
   "author": "otakustay",
