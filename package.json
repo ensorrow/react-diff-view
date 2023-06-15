@@ -21,8 +21,6 @@
     "build-pages": "skr build --clean --src-dir=site --build-target=stable",
     "prepublishOnly": "npm run build",
     "lint": "eslint src site",
-    "ci": "yarn install --immutable && npm run lint && npm run build-pages && npm run build && npm run test",
-    "prerelease": "npm run ci",
     "release": "standard-version"
   },
   "author": "otakustay",
